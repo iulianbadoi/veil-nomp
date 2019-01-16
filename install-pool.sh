@@ -80,7 +80,7 @@ nomp() {
 		npm update
 		echo "---------------------------------------------------------------------------"
 		echo "Finished Installing NOMP+REDIS+NODEJS+VEIL"
-		echo "Please go to 'https://github.com/mrmetech/veil-nomp'"
+		echo "Please go to 'https://github.com/zone117x/node-stratum-pool'"
 		echo "For instructions on editing the config files to suit your needs."
 		ending
 	else
