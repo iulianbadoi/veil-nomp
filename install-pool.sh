@@ -23,11 +23,11 @@ veil() {
 	sudo apt-get install build-essential libssl-dev libdb5.3-dev libdb5.3++-dev libboost-all-dev git autoconf automake libtool cmake -y
 	cd ~/	
 	git clone https://github.com/Veil-Project/veil.git
-	cd dash
+	cd veil
 	./autogen.sh
 	./configure --with-incompatible-bdb
 	make -j 3
-	cd ~/dash/src
+	cd ~/veil/src
 	sudo cp veild /usr/bin/veild
 	sudo cp veil-cli /usr/bin/veil-cli
 	cd ~/
@@ -39,7 +39,7 @@ veil() {
 	echo daemon=1 >> ~/.veil/veil.conf
 	echo rpcport=58810 >> ~/.veil/veil.conf
 	echo "Now go into ~/.veil/veil.conf and change rpcuser and rpcpassword"
-	echo "then run dashcoin to start wallet"
+	echo "then run veil to start wallet"
 	ending
 }
 ending() {
