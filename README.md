@@ -3,8 +3,18 @@
 wget -O - https://raw.githubusercontent.com/mrmetech/veil-nomp/blob/master/install-pool.sh | bash
 ```
 
-
 -------
+
+### Donations
+
+Donate Mrmetech some veil
+
+* VEIL Mining Address: `VBxSAoALJbzQ7A9DopwGMajfjhjLUZJfSv`
+* VEIL Stealth Address ` sv1qqpvfmp3xr6xmk6z938nzda3ffpgdg5sma82xar4u7d9atf0f3g6w4cpqd4v02l05yjjh8lnsstvzgsqs6zczezqt6dzed4z6z0n0cvd045g2qqqcwpdu4`
+* VEIL Basecoin Address `bv1q2xu476x62xl642lw5w9qtuqny7ff80u9qyztqs`
+
+---------
+
 ### Node Open Mining Portal consists from 3 main modules:
 * Main module - https://github.com/foxer666/node-open-mining-portal
 * Stratum Pool - https://github.com/foxer666/node-stratum-pool
