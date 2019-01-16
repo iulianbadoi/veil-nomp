@@ -37,7 +37,7 @@ veil() {
 	echo listen=1 >> ~/.veil/veil.conf
 	echo server=1 >> ~/.veil/veil.conf
 	echo daemon=1 >> ~/.veil/veil.conf
-	echo rpcport=9998 >> ~/.veil/veil.conf
+	echo rpcport=58810 >> ~/.veil/veil.conf
 	echo "Now go into ~/.veil/veil.conf and change rpcuser and rpcpassword"
 	echo "then run dashcoin to start wallet"
 	ending
@@ -75,12 +75,12 @@ nomp() {
 		echo "---------------------------------------------------------------------------"
 		echo "Now Installing NOMP"
 		echo "---------------------------------------------------------------------------"
-		git clone https://github.com/zone117x/node-open-mining-portal.git nomp
+		git clone https://github.com/mrmetech/veil-nomp.git nomp
 		cd nomp
 		npm update
 		echo "---------------------------------------------------------------------------"
 		echo "Finished Installing NOMP+REDIS+NODEJS+VEIL"
-		echo "Please go to 'https://github.com/zone117x/node-stratum-pool'"
+		echo "Please go to 'https://github.com/mrmetech/veil-node-stratum-pool/'"
 		echo "For instructions on editing the config files to suit your needs."
 		ending
 	else
