@@ -1,6 +1,6 @@
 ### Install
 ```
-wget -O - https://raw.githubusercontent.com/mrmetech/veil-nomp/master/install-pool.sh | bash -N
+wget -qO- https://raw.githubusercontent.com/mrmetech/veil-nomp/master/install-pool.sh | bash -s -- -N
 ```
 
 -------
